@@ -1,0 +1,124 @@
+url @import ('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margem: 0;
+    preenchimento: 0;
+    fronteira: 0;
+    tamanho de caixa: border-box;
+    fonte-família: "Poppins", sans-serif;
+}
+
+corpo {
+    fundo: #1B2029;
+    cor: branco;
+    peso da fonte: 500;
+    display: flex;
+    min-altura: 100vh;
+    largura mínima: 100vw;
+}
+
+principal {
+    largura: 50vw;
+    display: flex;
+    flex-direção: coluna;
+    itens de alinhamento: centro;
+    justificar-conteúdo: centro;
+}
+
+h1 principal  {
+    cor: #8880FE;
+    tamanho da fonte: 3rem;
+    margem-inferior: 3rem;
+    alinhamento de texto: centro;
+}
+
+principal. mídias sociais {
+    display: flex;
+    conteúdo de alinhamento: centro;
+}
+
+principal . social-mídia um {
+    text-decoração: nenhum;
+}
+
+principal . mídia social img {
+    largura: 36px;
+    margem-esquerda: 3rem;
+}
+
+principal . mídias sociais a:img primeiro filho  {
+    margem-esquerda: 0;
+}
+
+principal . alternativa {
+    margem-superior: 1rem;
+}
+
+principal . extensão alternativa {
+    tamanho da fonte: 1.1rem;
+    peso da fonte: 400;
+    cor: rgba (255, 255, 255, 0.3);
+    posição: relativo;
+}
+
+principal . span alternativo::antes, principal . extensão alternativa::depois {
+    posição: absoluta;
+    conteúdo: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+main .alternative span::after {
+    left: 50px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166);
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #6C63FF;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #5952d4;
+}
+
+section.images {
+    width: 50vw;
